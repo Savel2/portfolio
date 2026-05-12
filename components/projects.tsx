@@ -13,7 +13,7 @@ const projects = [
     tag: "AI · Demo",
     title: "JD-Fit Analyser",
     description: "AI demo: paste a job description, get instant fit analysis.",
-    link: "#",
+    link: "/fit",
   },
   {
     tag: "Meta · Portfolio",
