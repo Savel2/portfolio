@@ -7,19 +7,22 @@ const projects = [
     tag: "AI · API",
     title: "Football Fixtures API",
     description: "Live head-to-head match data, built with Python + API-Football.",
-    link: "#",
+    link: "/man-u",
+    external: false,
   },
   {
     tag: "AI · Demo",
     title: "JD-Fit Analyser",
     description: "AI demo: paste a job description, get instant fit analysis.",
     link: "/fit",
+    external: false,
   },
   {
     tag: "Meta · Portfolio",
     title: "This Site",
     description: "Vibe-coded portfolio. Built in a weekend with v0, Claude Code, and Vercel.",
-    link: "#",
+    link: "https://github.com/Savel2/portfolio",
+    external: true,
   },
 ]
 
@@ -46,6 +49,7 @@ export function ProjectsSection() {
             <motion.a
               key={project.title}
               href={project.link}
+              {...(project.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

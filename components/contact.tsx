@@ -3,9 +3,9 @@
 import { motion } from "framer-motion"
 
 const socialLinks = [
-  { label: "Email", href: "mailto:hello@example.com" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "GitHub", href: "https://github.com" },
+  { label: "Email", href: "mailto:saveliy2105@gmail.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/savnev/", external: true },
+  { label: "GitHub", href: "https://github.com/Savel2/portfolio", external: true },
 ]
 
 export function ContactSection() {
@@ -31,7 +31,9 @@ export function ContactSection() {
           </p>
 
           <motion.a
-            href="#"
+            href="https://calendar.app.google/78mAh6aSNL54JqD19"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4, delay: 0.2 }}
@@ -53,6 +55,7 @@ export function ContactSection() {
                 <a
                   href={link.href}
                   className="transition-colors hover:text-primary"
+                  {...('external' in link ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 >
                   {link.label}
                 </a>

@@ -50,18 +50,22 @@ export function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in opacity-0"
           style={{ animationDelay: "0.7s", animationFillMode: "forwards" }}
         >
-          <Button 
+          <Button
+            asChild
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-[0_0_20px_rgba(0,255,65,0.3)] transition-all duration-300 font-medium px-8"
           >
-            Book a 15-min intro call
+            <a href="https://calendar.app.google/78mAh6aSNL54JqD19" target="_blank" rel="noopener noreferrer">
+              Book a 15-min intro call
+            </a>
           </Button>
-          <Button 
+          <Button
+            asChild
             variant="outline"
             size="lg"
             className="border-primary text-primary hover:bg-primary/10 hover:shadow-[0_0_20px_rgba(0,255,65,0.15)] transition-all duration-300 font-medium px-8"
           >
-            See my work
+            <a href="#projects">See my work</a>
           </Button>
         </div>
       </div>
