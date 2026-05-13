@@ -9,6 +9,7 @@ const projects = [
     description: "Live head-to-head match data, built with Python + API-Football.",
     link: "/man-u",
     external: false,
+    cta: "View →",
   },
   {
     tag: "AI · Demo",
@@ -16,6 +17,7 @@ const projects = [
     description: "AI demo: paste a job description, get instant fit analysis.",
     link: "/fit",
     external: false,
+    cta: "View →",
   },
   {
     tag: "Meta · Portfolio",
@@ -23,6 +25,15 @@ const projects = [
     description: "Vibe-coded portfolio. Built in a weekend with v0, Claude Code, and Vercel.",
     link: "https://github.com/Savel2/portfolio",
     external: true,
+    cta: "View →",
+  },
+  {
+    tag: "Hardware · Startup",
+    title: "Zaryadka",
+    description: "Co-founded power bank sharing service. 10 active stations across Moscow before we shut it down.",
+    link: "https://www.youtube.com/watch?v=B1GxGkvgMVA",
+    external: true,
+    cta: "Watch demo →",
   },
 ]
 
@@ -44,7 +55,7 @@ export function ProjectsSection() {
           </h2>
         </motion.div>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {projects.map((project, index) => (
             <motion.a
               key={project.title}
@@ -66,7 +77,7 @@ export function ProjectsSection() {
                 {project.description}
               </p>
               <span className="text-sm font-medium text-primary transition-transform group-hover:translate-x-1">
-                View →
+                {project.cta}
               </span>
             </motion.a>
           ))}
