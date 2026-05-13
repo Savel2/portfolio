@@ -39,7 +39,7 @@ export function AboutSection() {
               </p>
               <p>
                 When I&apos;m not running standups or writing playbooks, you&apos;ll find me
-                training somewhere between calisthenics, football, BJJ, and chess.
+                training somewhere between calisthenics, tennis, football, surfing, BJJ, and chess.
               </p>
             </div>
           </div>
