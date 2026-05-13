@@ -1,0 +1,925 @@
+Team Name,Team ID
+Manchester United,33
+Newcastle,34
+Bournemouth,35
+Fulham,36
+Wolves,39
+Liverpool,40
+Arsenal,42
+Burnley,44
+Everton,45
+Tottenham,47
+West Ham,48
+Chelsea,49
+Manchester City,50
+Brighton,51
+Crystal Palace,52
+Brentford,55
+Sheffield Utd,62
+Nottingham Forest,65
+Aston Villa,66
+Luton,1359
+Southampton,41
+Leicester,46
+Leeds,63
+Watford,38
+Norwich,71
+West Brom,60
+Huddersfield,37
+Watford,38
+Cardiff,43
+Birmingham,54
+Bristol City,56
+Ipswich,57
+Millwall,58
+Preston,59
+West Brom,60
+Leeds,63
+Hull City,64
+Blackburn,67
+Middlesbrough,70
+Norwich,71
+QPR,72
+Rotherham,73
+Sheffield Wednesday,74
+Stoke City,75
+Swansea,76
+Sunderland,746
+Coventry,1346
+Plymouth,1357
+Burnley,44
+Reading,53
+Wigan,61
+Sheffield Utd,62
+Blackpool,1356
+Luton,1359
+Bournemouth,35
+Fulham,36
+Nottingham Forest,65
+Derby,69
+Barnsley,747
+Peterborough,1350
+Brentford,55
+Wycombe,1358
+Charlton,1335
+Bayern Munich,157
+SC Freiburg,160
+VfL Wolfsburg,161
+Werder Bremen,162
+Borussia Monchengladbach,163
+FSV Mainz 05,164
+Borussia Dortmund,165
+1899 Hoffenheim,167
+Bayer Leverkusen,168
+Eintracht Frankfurt,169
+FC Augsburg,170
+VfB Stuttgart,172
+RB Leipzig,173
+VfL BOCHUM,176
+FC Heidenheim,180
+SV Darmstadt 98,181
+Union Berlin,182
+FC Koln,192
+Hertha Berlin,159
+FC Schalke 04,174
+Hamburger SV,175
+SpVgg Greuther Furth,178
+Arminia Bielefeld,188
+Holstein Kiel,191
+Fortuna Dusseldorf,158
+SC Paderborn 07,185
+Fortuna Dusseldorf,158
+Hertha Berlin,159
+Hannover 96,166
+FC Nurnberg,171
+FC Schalke 04,174
+Hamburger SV,175
+SpVgg Greuther Furth,178
+FC Magdeburg,179
+SC Paderborn 07,185
+FC St. Pauli,186
+Holstein Kiel,191
+Eintracht Braunschweig,744
+FC Kaiserslautern,745
+Karlsruher SC,785
+SV Wehen,1319
+Hansa Rostock,1321
+VfL Osnabruck,1324
+SV Elversberg,1660
+Jahn Regensburg,177
+FC Heidenheim,180
+SV Darmstadt 98,181
+Arminia Bielefeld,188
+SV Sandhausen,189
+Werder Bremen,162
+Dynamo Dresden,183
+FC Ingolstadt 04,184
+Erzgebirge AUE,190
+VfL BOCHUM,176
+FC Wurzburger Kickers,784
+VfB Stuttgart,172
+Barcelona,529
+Atletico Madrid,530
+Athletic Club,531
+Valencia,532
+Villarreal,533
+Las Palmas,534
+Sevilla,536
+Celta Vigo,538
+Real Madrid,541
+Alaves,542
+Real Betis,543
+Getafe,546
+Girona,547
+Real Sociedad,548
+Granada CF,715
+Almeria,723
+Cadiz,724
+Osasuna,727
+Rayo Vallecano,728
+Mallorca,798
+Espanyol,540
+Valladolid,720
+Elche,797
+Levante,539
+Eibar,545
+Huesca,726
+Leganes,537
+Leganes,537
+Levante,539
+Espanyol,540
+Eibar,545
+Alcorcon,711
+Oviedo,718
+Tenerife,719
+Valladolid,720
+Albacete,722
+Huesca,726
+Sporting Gijon,731
+Zaragoza,732
+Elche,797
+Mirandes,799
+Racing Santander,4665
+FC Cartagena,5262
+FC Andorra,8157
+Amorebieta,9380
+Racing Ferrol,9409
+Burgos,9580
+Villarreal II,9595
+Eldense,9692
+Las Palmas,534
+Malaga,535
+Alaves,542
+Granada CF,715
+Lugo,716
+Ponferradina,4907
+Ibiza,9390
+Girona,547
+Almeria,723
+Fuenlabrada,4906
+Real Sociedad II,9585
+Rayo Vallecano,728
+Mallorca,798
+Castellón,5254
+UD Logroñés,5280
+Sabadell,9593
+Deportivo La Coruna,544
+Numancia,717
+Cadiz,724
+Extremadura,860
+Jagiellonia,336
+Slask Wroclaw,337
+Legia Warszawa,339
+Gornik Zabrze,340
+Zaglebie Lubin,345
+Korona Kielce,346
+Lech Poznan,347
+Pogon Szczecin,348
+Piast Gliwice,349
+Cracovia Krakow,350
+Puszcza Niepołomice,3490
+Raków Częstochowa,3491
+Stal Mielec,3493
+Warta Poznań,3496
+ŁKS Łódź,3498
+Radomiak Radom,4248
+Ruch Chorzów,6953
+Widzew Łódź,6962
+Miedz Legnica,335
+Wisla Plock,341
+Lechia Gdansk,343
+Wisla Krakow,338
+Nieciecza,3487
+Górnik Łęczna,6941
+Podbeskidzie,3489
+Arka Gdynia,344
+Dundalk,584
+Shamrock Rovers,652
+Cork City,653
+Derry City,670
+Bohemians,3840
+Sligo Rovers,3842
+St Patrick's Athl.,3843
+UCD,3844
+Drogheda United,3850
+Shelbourne,3854
+Finn Harps,3841
+Waterford,3845
+Longford Town,3853
+Celtic,247
+Hibernian,249
+Kilmarnock,250
+ST Mirren,251
+Aberdeen,252
+Dundee,253
+Heart OF Midlothian,254
+Livingston,255
+Motherwell,256
+Rangers,257
+ST Johnstone,258
+Ross County,902
+Partick,901
+Dundee Utd,1386
+Ayr Utd,1387
+Queen's Park,6778
+Inverness CT,903
+Arbroath,4249
+Hamilton Academical,248
+Raith Rovers,1385
+Dunfermline,1388
+Reading,53
+Wigan,61
+Bolton,68
+Derby,69
+Barnsley,747
+Burton Albion,748
+Bristol Rovers,1334
+Charlton,1335
+Fleetwood Town,1336
+Northampton,1337
+Oxford United,1338
+Peterborough,1350
+Port Vale,1351
+Shrewsbury,1352
+Portsmouth,1355
+Blackpool,1356
+Wycombe,1358
+Exeter City,1364
+Stevenage,1368
+Cambridge United,1370
+Carlisle,1371
+Cheltenham,1372
+Leyton Orient,1373
+Lincoln,13791
+Ipswich,57
+Milton Keynes Dons,1348
+Plymouth,1357
+Accrington ST,1360
+Morecambe,1375
+Forest Green,1378
+Rotherham,73
+Sunderland,746
+AFC Wimbledon,1333
+Gillingham,1347
+Doncaster,1354
+Crewe,1363
+Hull City,64
+Rochdale,1339
+Swindon Town,1353
+Southend,1341
+Bury,1344
+Coventry,1346
+Tranmere,1381
+AFC Wimbledon,1333
+Walsall,1342
+Bradford,1343
+Gillingham,1347
+Milton Keynes Dons,1348
+Swindon Town,1353
+Doncaster,1354
+Accrington ST,1360
+Colchester,1361
+Crawley Town,1362
+Crewe,1363
+Grimsby,1365
+Newport County,1367
+Mansfield Town,1374
+Morecambe,1375
+Notts County,1376
+Forest Green,1378
+Tranmere,1381
+Barrow,1819
+Sutton Utd,1835
+Wrexham,1837
+Harrogate Town,1842
+Salford City,1844
+Stockport County,4686
+Northampton,1337
+Rochdale,1339
+Hartlepool,1366
+Stevenage,1368
+Carlisle,1371
+Leyton Orient,1373
+Bristol Rovers,1334
+Scunthorpe,1340
+Oldham,1349
+Port Vale,1351
+Exeter City,1364
+Bolton,68
+Southend,1341
+Cambridge United,1370
+Cheltenham,1372
+Plymouth,1357
+Macclesfield,1380
+Lille,79
+Lyon,80
+Marseille,81
+Montpellier,82
+Nantes,83
+Nice,84
+Paris Saint Germain,85
+Monaco,91
+Reims,93
+Rennes,94
+Strasbourg,95
+Toulouse,96
+Lorient,97
+Clermont Foot,99
+Stade Brestois 29,106
+LE Havre,111
+Metz,112
+Lens,116
+Angers,77
+Ajaccio,98
+Auxerre,108
+Estac Troyes,110
+Bordeaux,78
+Saint Etienne,1063
+Dijon,89
+Nimes,92
+Amiens,87
+Angers,77
+Bordeaux,78
+Amiens,87
+Caen,88
+Guingamp,90
+Ajaccio,98
+Grenoble,101
+Valenciennes,105
+Auxerre,108
+Estac Troyes,110
+Paris FC,114
+Quevilly,431
+Laval,433
+Saint Etienne,1063
+PAU,1297
+Concarneau,1300
+Rodez,1301
+Dunkerque,1304
+Bastia,1305
+Annecy,3012
+Dijon,89
+Nimes,92
+LE Havre,111
+Metz,112
+Niort,113
+Sochaux,115
+Toulouse,96
+Nancy,102
+Villefranche,1302
+Clermont Foot,99
+Chateauroux,107
+Chambly Thelle FC,1291
+Lorient,97
+Orleans,103
+Lens,116
+Le Mans,1298
+OH Leuven,260
+KVC Westerlo,261
+KV Mechelen,266
+Anderlecht,554
+Club Brugge KV,569
+Gent,631
+Standard Liege,733
+Kortrijk,734
+St. Truiden,735
+Charleroi,736
+AS Eupen,739
+Antwerp,740
+Cercle Brugge,741
+Genk,742
+Union St. Gilloise,1393
+RWDM,6224
+Zulte Waregem,600
+Oostende,624
+Seraing United,10244
+Beerschot Wilrijk,263
+Waasland-beveren,738
+Royal Excel Mouscron,743
+Red Bull Salzburg,571
+Austria Vienna,601
+SCR Altach,618
+Sturm Graz,637
+Rapid Vienna,781
+Wolfsberger AC,1025
+Lask Linz,1026
+TSV Hartberg,1072
+FC BW Linz,1394
+WSG Wattens,1398
+Austria Lustenau,1399
+Austria Klagenfurt,1405
+Ried,1028
+Admira Wacker,1023
+SKN ST. Polten,1027
+SV Mattersburg,1024Arsenal Tula,1077
+Ska-khabarovsk,1087
+Enisey,1089
+Khimki,1994
+FK Sokol Saratov,1995
+Shinnik Yaroslavl,1998
+Tyumen,2000
+FK Neftekhimik,2001
+Volgar Astrakhan,2004
+Torpedo Moskva,3985
+Akron,6786
+Alaniya Vladikavkaz,6787
+Chernomorets,6791
+KAMAZ,6801
+Leningradets,6811
+Makhachkala,6813
+Rodina Moskva,6822
+Urozhay,6831
+FC UFA,1078
+Rubin,1083
+Baltika,2006
+Krasnodar 2,2015
+Veles,6833
+Volga Ulyanovsk,6834
+Orenburg,1080
+TOM Tomsk,1081
+Fakel Voronezh,1993
+Spartak Moscow 2,2003
+Rotor Volgograd,2010
+Tekstilshchik,3984
+Dolgoprudny,6797
+Metallurg Lipetsk,6815
+Irtysh Omsk,665
+Krylya Sovetov,1079
+Nizhny Novgorod,2011
+Chertanovo Moscow,2014
+Chayka,3983
+Dinamo Bryansk,6795
+Alaniya II,10136
+Mordovia Saransk,1997
+Luch-Energiya,2007
+Avangard Kursk,2009
+FC Armavir,2013
+Hammarby FF,363
+Djurgardens IF,364
+IFK Goteborg,366
+BK Hacken,367
+Sirius,370
+IF Brommapojkarna,371
+IF elfsborg,372
+kalmar FF,374
+Malmo FF,375
+AIK stockholm,377
+IFK Norrkoping,378
+Halmstad,766
+IFK Varnamo,2163
+Varbergs BoIS FC,2171
+Degerfors IF,2172
+Mjallby AIF,2240
+GIF Sundsvall,373
+Helsingborg,811
+Osters IF,2174
+Orebro SK,365
+Ostersunds FK,376
+Jonkopings Sodra,764
+falkenbergs FF,812
+AFC Eskilstuna,765
+IK brage,2175
+Hammarby FF,363
+Djurgardens IF,364
+IFK Goteborg,366
+BK Hacken,367
+Sirius,370
+IF Brommapojkarna,371
+IF elfsborg,372
+kalmar FF,374
+Malmo FF,375
+AIK stockholm,377
+IFK Norrkoping,378
+Halmstad,766
+IFK Varnamo,2163
+Varbergs BoIS FC,2171
+Degerfors IF,2172
+Mjallby AIF,2240
+GIF Sundsvall,373
+Helsingborg,811
+Osters IF,2174
+Orebro SK,365
+Ostersunds FK,376
+Jonkopings Sodra,764
+falkenbergs FF,812
+AFC Eskilstuna,765
+IK brage,2175
+FC Basel 1893,551
+BSC Young Boys,565
+FC Lugano,606
+FC Luzern,644
+FC Zurich,783
+FC ST. Gallen,1011
+Grasshoppers,1013
+Lausanne,1014
+FC Winterthur,2180
+Servette FC,2184
+Stade Lausanne-Ouchy,4269
+Yverdon Sport,6653
+FC Sion,630
+FC Schaffhausen,2182
+FC Vaduz,660
+FC Thun,1012
+Neuchatel Xamax FC,1015
+Gimnasia L.P.,434
+River Plate,435
+Racing Club,436
+Rosario Central,437
+Velez Sarsfield,438
+Godoy Cruz,439
+Belgrano Cordoba,440
+Union Santa Fe,441
+Defensa Y Justicia,442
+Huracan,445
+Lanus,446
+Colon Santa Fe,448
+Banfield,449
+Estudiantes L.P.,450
+Boca Juniors,451
+Tigre,452
+Independiente,453
+Atletico Tucuman,455
+Talleres Cordoba,456
+Newells Old Boys,457
+Argentinos JRS,458
+Arsenal Sarandi,459
+San Lorenzo,460
+Sarmiento Junin,474
+Instituto Cordoba,478
+Platense,1064
+Central Cordoba de Santiago,1065
+Barracas Central,2432
+Patronato,444
+Aldosivi,463
+Shakhtar Donetsk,550
+Dynamo Kyiv,572
+Zorya Luhansk,599
+Vorskla Poltava,1121
+Chornomorets,3615
+Oleksandria,3619
+Dnipro-1,3623
+Kolos Kovalivka,3627
+Metalist 1925 Kharkiv,3628
+Obolon'-Brovar,3630
+Ruh Lviv,3632
+Minai,4658
+Kryvbas KR,6489
+Polessya,6496
+Veres Rivne,6501
+LNZ Cherkasy,17161
+Lviv,3618
+Inhulets,3625
+Metalurh Zaporizhya,5627
+Metal Kharkiv,14437
+FC Mariupol,2252
+Desna,3616
+Olimpik Donetsk,639
+Karpaty,3617
+Bahia,118
+Internacional,119
+Botafogo,120
+Palmeiras,121
+Fluminense,124
+America Mineiro,125
+Sao Paulo,126
+Flamengo,127
+Santos,128
+Gremio,130
+Corinthians,131
+Vasco DA Gama,133
+Atletico Paranaense,134
+Cruzeiro,135
+Coritiba,147
+Goias,151
+Fortaleza EC,154
+RB Bragantino,794
+Atletico-MG,1062
+Cuiaba,1193
+Ceara,129
+Atletico Goianiense,144
+Avai,145
+Juventude,152
+Sport Recife,123
+Chapecoense-sc,132
+CSA,150
+Benfica,211
+FC Porto,212
+Moreirense,215
+Portimonense,216
+SC Braga,217
+Boavista,222
+Chaves,223
+Guimaraes,224
+Rio Ave,226
+Sporting CP,228
+Estoril,230
+Farense,231
+Arouca,240
+Famalicao,242
+GIL Vicente,762
+Vizela,810
+Casa Pia,4716
+Estrela,15130
+Maritimo,214
+Santa Clara,227
+Pacos Ferreira,234
+Tondela,218
+Belenenses,221
+Nacional,225
+Vitoria Setubal,219
+Aves,220
+Slavia Praha,560
+Plzen,567
+Zlin,603
+Sparta Praha,628
+Mlada Boleslav,640
+Slovan Liberec,782
+FK Jablonec,1122
+Sigma Olomouc,2250
+Baník Ostrava,3713
+Bohemians 1905,3714
+Karviná,3716
+Slovácko,3719
+Teplice,3720
+Hradec Králové,3723
+Pardubice,3724
+České Budějovice,3736
+Příbram,3718
+Zbrojovka Brno,3733
+Vyškov,7379
+Opava,3717
+Vlašim,3730
+Vejle,395
+FC Midtjylland,397
+FC Nordsjaelland,398
+FC Copenhagen,400
+Randers FC,401
+Odense,405
+Aarhus,406
+Brondby,407
+Lyngby,625
+Viborg,2070
+Hvidovre,2072
+Silkeborg,2073
+Aalborg,402
+AC Horsens,404
+Sonderjyske,396
+Esbjerg,403
+Hobro,408
+Lazio,487
+Sassuolo,488
+AC Milan,489
+Cagliari,490
+Napoli,492
+Udinese,494
+Genoa,495
+Juventus,496
+AS Roma,497
+Atalanta,499
+Bologna,500
+Fiorentina,502
+Torino,503
+Verona,504
+Inter,505
+Empoli,511
+Frosinone,512
+Salernitana,514
+Lecce,867
+Monza,1579
+Sampdoria,498
+Spezia,515
+Cremonese,520
+Venezia,517
+Crotone,501
+Benevento,506
+Parma,523
+Spal,493
+Brescia,518
+Brann,319
+Lillestrom,321
+Stabaek,323
+Stromsgodset,324
+Tromso,325
+Valerenga,326
+Bodo/Glimt,327
+Haugesund,328
+Molde,329
+ODD Ballklubb,330
+Rosenborg,331
+Sandefjord,332
+Sarpsborg 08 FF,333
+Aalesund,757
+Viking,759
+Ham-Kam,2159
+Kristiansund BK,320
+Kongsvinger,2144
+jerv,2151
+Mjondalen,2152
+Start,334
+Sogndal,758
+Ranheim,322
+PEC Zwolle,193
+Ajax,194
+Excelsior,196
+PSV Eindhoven,197
+Vitesse,200
+AZ Alkmaar,201
+Fortuna Sittard,205
+Heracles,206
+Utrecht,207
+Feyenoord,209
+Heerenveen,210
+GO Ahead Eagles,410
+NEC Nijmegen,413
+Twente,415
+FC Volendam,416
+Waalwijk,417
+Almere City FC,419
+Sparta Rotterdam,426
+Willem II,195
+Groningen,202
+NAC Breda,203
+VVV Venlo,204
+Emmen,208
+MVV,412
+Cambuur,420
+FC Eindhoven,422
+ADO Den Haag,198
+De Graafschap,199
+Roda,414
+Ards,5338
+Ballinamallard United,5339
+Ballyclare Comrades,5340
+Dergview,5341
+Dundela,5342
+H&W Welders,5343
+Knockbreda,5344
+Portadown,5348
+Institute,5353
+Annagh United,11109
+Bangor,11112
+Newington Youth,11118
+Loughgall,5345
+Warrenpoint Town,5355
+Ballymacash Rangers,19025
+Newry City AFC,5346
+Queen's University,5349
+Newry City,14511
+PSNI,5347
+Brann,319
+Lillestrom,321
+Stabaek,323
+Stromsgodset,324
+Tromso,325
+Valerenga,326
+Bodo/Glimt,327
+Haugesund,328
+Molde,329
+ODD Ballklubb,330
+Rosenborg,331
+Sandefjord,332
+Sarpsborg 08 FF,333
+Aalesund,757
+Viking,759
+Ham-Kam,2159
+Kristiansund BK,320
+Kongsvinger,2144
+jerv,2151
+Mjondalen,2152
+Start,334
+Sogndal,758
+Ranheim,322
+Besiktas,549
+Istanbul Basaksehir,564
+Konyaspor,607
+Fenerbahce,611
+Galatasaray,645
+Alanyaspor,996
+Trabzonspor,998
+Kayserispor,1001
+Sivasspor,1002
+Kasimpasa,1004
+Antalyaspor,1005
+Rizespor,1007
+Ankaragucu,1010
+Adana Demirspor,3563
+Gazişehir Gaziantep,3573
+Hatayspor,3575
+İstanbulspor,3578
+Fatih Karagümrük,3589
+Pendikspor,3601
+Samsunspor,3603
+Giresunspor,3574
+Ümraniyespor,3577
+Goztepe,994
+Yeni Malatyaspor,999
+Altay,3566
+Genclerbirligi,997
+Erzurum BB,1009
+Denizlispor,3570
+Aberystwyth Town,351
+Bala Town,352
+Cardiff MET,353
+The New Saints,354
+Caernarfon Town,356
+GAP Connah S Quay FC,357
+Newtown AFC,358
+Barry Town,361
+Penybont,2191
+Pontypridd Town,2192
+Haverfordwest County AFC,2194
+Colwyn Bay,5611
+Airbus UK,4909
+Flint Town United,5614
+Cefn Druids AFC,360
+Carmarthen Town,359
+Hapoel Acre,4482
+Hapoel Afula,4483
+Hapoel Nazareth Illit,4487
+Hapoel Ramat Gan,4489
+Hapoel Ramat HaSharon,4490
+Hapoel Rishon LeZion,4491
+Hapoel Umm al-Fahm,4492
+Kafr Qasim,4493
+Hapoel Kfar Saba,4497
+Sektzia Nes Tziona,4499
+Maccabi Herzliya,4503
+Bnei Yehuda,4508
+Ironi Kiryat Shmona,4510
+Ironi Tiberias,6181
+Maccabi Kabilio Jaffa,6192
+Ihud Bnei Shfaram,19833
+Hapoel Petah Tikva,4488
+Maccabi Ahi Nazareth,4494
+Maccabi Petah Tikva,4495
+Agudat Sport Ashdod,6129
+Hapoel Kfar Shalem,6160
+Beitar Tel Aviv Ramla,4480
+Hapoel Iksal,4496
+Hapoel Ra'anana,4509
+Maccabi Bnei Raina,6186
+Hapoel Katamon,4486
+Bnei Sakhnin,4481
+Hapoel Ashkelon,4484
+Hapoel Bnei Lod,4485
+Hapoel Marmorek,4498
+Olympiakos Piraeus,553
+AEK Athens FC,575
+Panathinaikos,617
+PAOK,619
+Panetolikos,949
+PAS Giannina,950
+Asteras Tripolis,955
+Lamia,956
+Aris Thessalonikis,1123
+OFI,1124
+Panserraikos,2099
+Volos NFC,2110
+Kifisia,5050
+Atromitos,12260
+Levadiakos,957
+Ionikos,7513
+Apollon Smirnis,951
+Veria,961
+Larisa,953
+Xanthi FC,959
+Panionios,622
+Apollon Limassol,602
+AEK Larnaca,614
+Apoel Nicosia,2247
+Anorthosis,2269
+AEL,3396
+Doxa,3398
+Nea Salamis,3401
+Omonia Nicosia,3402
+Pafos,3403
+AE Zakakiou,3404
+Aris,3408
+Ethnikos Achna,3412
+Karmiotissa,3413
+Othellos,3418
+Enosis,3399
+Akritas,3406
+Olympiakos,3415
+PAEEK,3419
+Ermis,3400
