@@ -1,6 +1,8 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { motion } from "framer-motion"
+import { ChevronDown } from "lucide-react"
 
 export function Hero() {
   return (
@@ -69,6 +71,33 @@ export function Hero() {
           </Button>
         </div>
       </div>
+
+      {/* Scroll indicator — hidden on very short screens */}
+      <motion.a
+        href="#about"
+        aria-label="Scroll to about"
+        className="absolute bottom-5 left-1/2 -translate-x-1/2 flex-col items-center gap-1 hidden [@media(min-height:500px)]:flex"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.2, duration: 0.6 }}
+      >
+        <motion.div
+          animate={{ y: [0, 6, 0] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          className="flex flex-col items-center gap-1"
+        >
+          <ChevronDown
+            size={20}
+            style={{ color: "#00ff41", opacity: 0.6 }}
+          />
+          <span
+            className="font-mono uppercase tracking-widest"
+            style={{ fontSize: "10px", color: "#737373" }}
+          >
+            scroll
+          </span>
+        </motion.div>
+      </motion.a>
     </section>
   )
 }
