@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { ChatBubble } from "@/components/chat-bubble";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({
     >
       <body className="font-sans antialiased">
         {children}
+        <ChatBubble />
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
