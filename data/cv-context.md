@@ -157,17 +157,9 @@
 - Worked across HTML, SEO, security reviews, accessibility compliance, cross-browser responsiveness  
 - Tools/methods: SEO, Scrum, Jira
 
-### Volunteer - Yasnosvit
-
-**2022 - 2023**
-
-- Coordinated collection of essential supplies for 100+ Ukrainian children in London and Berlin  
-- Built and ran a charity website for the project  
-- Tools/methods: Wix, Notion
-
 ### Any other side projects, hackathons, open-source contributions?
 
-None currently beyond the personal portfolio site, Yasnosvit volunteer work, and the Link Group freelance engagement.
+None currently beyond the personal portfolio site and the Link Group freelance engagement.
 
 Note: the personal portfolio / vibe-coded site (which this AI doc lives on) is captured under Section 6 - "What I'm currently learning" - rather than here.
 
