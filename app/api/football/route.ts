@@ -69,7 +69,7 @@ export async function POST(request: Request) {
     const h2hData = await h2hRes.json() as {
       errors: Record<string, string> | []
       response: Array<{
-        fixture: { timestamp: number }
+        fixture: { timestamp: number; status: { short: string } }
         teams: { home: { name: string }; away: { name: string } }
         goals: { home: number; away: number }
       }>
@@ -90,7 +90,18 @@ export async function POST(request: Request) {
       })
     }
 
-    const sorted = [...h2hData.response].sort(
+    const COMPLETED = ['FT', 'AET', 'PEN']
+    const completed = h2hData.response.filter(f =>
+      COMPLETED.includes(f.fixture.status.short)
+    )
+
+    if (!completed.length) {
+      return Response.json({
+        noresult: 'No completed matches between these teams yet.',
+      })
+    }
+
+    const sorted = [...completed].sort(
       (a, b) => b.fixture.timestamp - a.fixture.timestamp
     )
     const fixture = sorted[0]
