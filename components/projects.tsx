@@ -4,6 +4,15 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
+    tag: "MACOS · TAURI · RUST",
+    title: "Your Next Move",
+    description: "A macOS menu bar app for Lichess correspondence chess. Play a move without leaving your workflow.",
+    subtitle: "Tauri + React + Rust. OAuth PKCE, auto-updater, native tray.",
+    link: "/projects/your-next-move",
+    external: false,
+    cta: "View project →",
+  },
+  {
     tag: "AI · API",
     title: "Football Fixtures API",
     description: "Live head-to-head match data, built with Python + API-Football.",
@@ -73,9 +82,16 @@ export function ProjectsSection() {
               <h3 className="mb-2 text-lg font-medium text-foreground">
                 {project.title}
               </h3>
-              <p className="mb-6 flex-1 text-sm text-muted-foreground leading-relaxed">
-                {project.description}
-              </p>
+              <div className="mb-6 flex-1">
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {project.description}
+                </p>
+                {'subtitle' in project && project.subtitle && (
+                  <p className="mt-1.5 text-xs text-muted-foreground italic opacity-70">
+                    {project.subtitle}
+                  </p>
+                )}
+              </div>
               <span className="text-sm font-medium text-primary transition-transform group-hover:translate-x-1">
                 {project.cta}
               </span>
