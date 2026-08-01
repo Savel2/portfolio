@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, type FormEvent } from "react"
 import { motion } from "framer-motion"
 
 const socialLinks = [
@@ -15,18 +15,29 @@ export function ContactSection() {
   const [message, setMessage] = useState("")
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle")
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setStatus("sending")
 
     try {
-      const res = await fetch("/api/contact", {
+      // FormSubmit rejects server-to-server requests as anti-spam,
+      // so we POST directly from the browser instead of via /api/contact.
+      const res = await fetch("https://formsubmit.co/ajax/saveliy2105@gmail.com", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, message }),
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+          _subject: `Portfolio contact from ${name}`,
+          _captcha: "false",
+        }),
       })
       const data = await res.json()
-      if (res.ok && data.ok) {
+      if (data.success === "true" || data.success === true) {
         setStatus("success")
       } else {
         setStatus("error")
