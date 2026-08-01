@@ -11,6 +11,7 @@
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.76",
     "@ai-sdk/react": "^3.0.179",
+    "@next/third-parties": "^16.2.12",
     "@radix-ui/react-slot": "^1.2.4",
     "@vercel/analytics": "^2.0.1",
     "ai": "^6.0.177",

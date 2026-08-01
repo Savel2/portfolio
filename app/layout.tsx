@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { ChatBubble } from "@/components/chat-bubble";
 import "./globals.css";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
         {children}
         <ChatBubble />
         {process.env.NODE_ENV === "production" && <Analytics />}
+        <GoogleAnalytics gaId="G-0SVXKVVY3L" />
       </body>
     </html>
   );
