@@ -19,22 +19,18 @@ export async function POST(request: Request) {
     return Response.json({ error: 'Invalid submission.' }, { status: 400 })
   }
 
-  const webhookUrl = process.env.N8N_CONTACT_WEBHOOK_URL
-  if (!webhookUrl) {
-    return Response.json({ error: 'Submission failed.' }, { status: 502 })
-  }
-
   const controller = new AbortController()
   setTimeout(() => controller.abort(), 10_000)
 
   try {
-    const res = await fetch(webhookUrl, {
+    const res = await fetch('https://formsubmit.co/ajax/saveliy2105@gmail.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         name: name.trim(),
         email: email.trim(),
         message: message.trim(),
+        _subject: `Portfolio contact from ${name.trim()}`,
       }),
       signal: controller.signal,
     })
